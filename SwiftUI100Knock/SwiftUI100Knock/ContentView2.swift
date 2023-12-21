@@ -1,24 +1,25 @@
 //
-//  ContentView1.swift
+//  ContentView2.swift
 //  SwiftUI100Knock
 //
-//  Created by 浅井麻衣 on 2023/12/18.
+//  Created by 浅井麻衣 on 2023/12/21.
 //
 
 import SwiftUI
 
-struct ContentView1: View {
+struct ContentView2: View {
 
     var body: some View {
         Image("Panda")
             .resizable()
-            .scaledToFit()
+            .scaledToFill()
             .frame(width: 150, height: 200)
             .background(.red)
+            .clipped()
     }
         
 }
 
 #Preview {
-    ContentView1()
+    ContentView2()
 }
