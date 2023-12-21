@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A7914E322B308F680001C303 /* SwiftUI100KnockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E312B308F680001C303 /* SwiftUI100KnockApp.swift */; };
-		A7914E342B308F680001C303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E332B308F680001C303 /* ContentView.swift */; };
+		A7914E342B308F680001C303 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E332B308F680001C303 /* ContentView1.swift */; };
 		A7914E362B308F680001C303 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E352B308F680001C303 /* Item.swift */; };
 		A7914E382B308F6F0001C303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7914E372B308F6F0001C303 /* Assets.xcassets */; };
 		A7914E3C2B308F6F0001C303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7914E3B2B308F6F0001C303 /* Preview Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		A7914E2E2B308F680001C303 /* SwiftUI100Knock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7914E312B308F680001C303 /* SwiftUI100KnockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnockApp.swift; sourceTree = "<group>"; };
-		A7914E332B308F680001C303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7914E332B308F680001C303 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		A7914E352B308F680001C303 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A7914E372B308F6F0001C303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI100Knock.entitlements; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A7914E312B308F680001C303 /* SwiftUI100KnockApp.swift */,
-				A7914E332B308F680001C303 /* ContentView.swift */,
+				A7914E332B308F680001C303 /* ContentView1.swift */,
 				A7914E352B308F680001C303 /* Item.swift */,
 				A7914E372B308F6F0001C303 /* Assets.xcassets */,
 				A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7914E342B308F680001C303 /* ContentView.swift in Sources */,
+				A7914E342B308F680001C303 /* ContentView1.swift in Sources */,
 				A7914E362B308F680001C303 /* Item.swift in Sources */,
 				A7914E322B308F680001C303 /* SwiftUI100KnockApp.swift in Sources */,
 			);
@@ -446,7 +446,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mai.matsui.SwiftUI100Knock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +485,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mai.matsui.SwiftUI100Knock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

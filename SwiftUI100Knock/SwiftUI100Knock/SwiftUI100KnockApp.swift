@@ -25,7 +25,7 @@ struct SwiftUI100KnockApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView1()
         }
         .modelContainer(sharedModelContainer)
     }
