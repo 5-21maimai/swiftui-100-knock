@@ -17,6 +17,7 @@
 		A7914E522B308F6F0001C303 /* SwiftUI100KnockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E512B308F6F0001C303 /* SwiftUI100KnockUITestsLaunchTests.swift */; };
 		A7914E5F2B3478710001C303 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E5E2B3478710001C303 /* ContentView2.swift */; };
 		A7914E612B388FFA0001C303 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E602B388FFA0001C303 /* ContentView3.swift */; };
+		A7914E632B3890570001C303 /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E622B3890570001C303 /* ContentView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A7914E512B308F6F0001C303 /* SwiftUI100KnockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A7914E5E2B3478710001C303 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		A7914E602B388FFA0001C303 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		A7914E622B3890570001C303 /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A7914E332B308F680001C303 /* ContentView1.swift */,
 				A7914E5E2B3478710001C303 /* ContentView2.swift */,
 				A7914E602B388FFA0001C303 /* ContentView3.swift */,
+				A7914E622B3890570001C303 /* ContentView4.swift */,
 				A7914E352B308F680001C303 /* Item.swift */,
 				A7914E372B308F6F0001C303 /* Assets.xcassets */,
 				A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */,
@@ -271,6 +274,7 @@
 				A7914E342B308F680001C303 /* ContentView1.swift in Sources */,
 				A7914E5F2B3478710001C303 /* ContentView2.swift in Sources */,
 				A7914E362B308F680001C303 /* Item.swift in Sources */,
+				A7914E632B3890570001C303 /* ContentView4.swift in Sources */,
 				A7914E612B388FFA0001C303 /* ContentView3.swift in Sources */,
 				A7914E322B308F680001C303 /* SwiftUI100KnockApp.swift in Sources */,
 			);
