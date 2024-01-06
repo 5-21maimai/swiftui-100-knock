@@ -25,15 +25,20 @@ struct ContentView10: View {
     ]
 
     var body: some View {
-        List {
-            ForEach(sectionContents, id: \.self) { section in
-                Section(section.title) {
-                    ForEach(section.contents, id: \.self) { content in
-                        Text(content)
+        NavigationView {
+            List {
+                ForEach(sectionContents, id: \.self) { section in
+                    Section(section.title) {
+                        ForEach(section.contents, id: \.self) { content in
+                            NavigationLink(destination: ContentView11(text: content)) {
+                                Text(content)
+                            }
+                        }
                     }
                 }
             }
         }
+        
     }
 }
 
