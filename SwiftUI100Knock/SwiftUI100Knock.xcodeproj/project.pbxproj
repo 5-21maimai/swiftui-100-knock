@@ -25,6 +25,7 @@
 		A7914E6D2B4022C00001C303 /* ContentView9.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E6C2B4022C00001C303 /* ContentView9.swift */; };
 		A7914E6F2B46E2440001C303 /* ContentView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E6E2B46E2440001C303 /* ContentView10.swift */; };
 		A7914E712B49838B0001C303 /* ContentView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E702B49838B0001C303 /* ContentView11.swift */; };
+		A7914E732B4984F10001C303 /* ContentView12.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7914E722B4984F10001C303 /* ContentView12.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		A7914E6C2B4022C00001C303 /* ContentView9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView9.swift; sourceTree = "<group>"; };
 		A7914E6E2B46E2440001C303 /* ContentView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView10.swift; sourceTree = "<group>"; };
 		A7914E702B49838B0001C303 /* ContentView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView11.swift; sourceTree = "<group>"; };
+		A7914E722B4984F10001C303 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				A7914E6C2B4022C00001C303 /* ContentView9.swift */,
 				A7914E6E2B46E2440001C303 /* ContentView10.swift */,
 				A7914E702B49838B0001C303 /* ContentView11.swift */,
+				A7914E722B4984F10001C303 /* ContentView12.swift */,
 				A7914E352B308F680001C303 /* Item.swift */,
 				A7914E372B308F6F0001C303 /* Assets.xcassets */,
 				A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */,
@@ -299,6 +302,7 @@
 				A7914E362B308F680001C303 /* Item.swift in Sources */,
 				A7914E632B3890570001C303 /* ContentView4.swift in Sources */,
 				A7914E712B49838B0001C303 /* ContentView11.swift in Sources */,
+				A7914E732B4984F10001C303 /* ContentView12.swift in Sources */,
 				A7914E612B388FFA0001C303 /* ContentView3.swift in Sources */,
 				A7914E692B401F910001C303 /* ContentView7.swift in Sources */,
 				A7914E6D2B4022C00001C303 /* ContentView9.swift in Sources */,

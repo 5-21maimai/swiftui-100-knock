@@ -30,7 +30,7 @@ struct ContentView10: View {
                 ForEach(sectionContents, id: \.self) { section in
                     Section(section.title) {
                         ForEach(section.contents, id: \.self) { content in
-                            NavigationLink(destination: ContentView11(text: content)) {
+                            NavigationLink(destination: ContentView12(text: content)) {
                                 Text(content)
                             }
                         }
