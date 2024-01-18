@@ -11,19 +11,17 @@ struct ContentView20: View {
     @State private var shouldShowSecondView: Bool = false
 
     var body: some View {
-        Button{
-            shouldShowSecondView = true
-        } label: {
-            Text("Tap Me!!")
+        NavigationStack {
+            Button{
+                shouldShowSecondView = true
+            } label: {
+                Text("Tap Me!!")
+            }.navigationDestination(
+                isPresented: $shouldShowSecondView
+            ) {
+                ContentView11(text: "SecondView")
+            }
         }
-        
-        NavigationLink(
-            destination: ContentView12(text: "SecondView"),
-            isActive: $shouldShowSecondView
-        ) {
-            EmptyView()
-        }
-        
     }
 }
 
