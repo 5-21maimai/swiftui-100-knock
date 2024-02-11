@@ -22,7 +22,18 @@ struct ContentView25: View {
                 }.onDelete(perform: { indexSet in
                     contents.remove(atOffsets: indexSet)
                 })
-            }
+            }.navigationBarItems(
+                trailing: Button{
+                    self.editMode = self.editMode.isEditing ? .inactive : .active
+                } label: {
+                    if self.editMode.isEditing {
+                        Text("Done")
+                    } else {
+                        Text("Edit")
+                    }
+                }
+            )
+            .environment(\.editMode, self.$editMode)
         }
     }
 }
