@@ -21,16 +21,12 @@ struct ContentView26: View {
                     Text(content)
                         .foregroundColor(.black)
                 }
-            }.onDelete(perform: { indexSet in
-                contents.remove(atOffsets: indexSet)
-            })
+            }
         }.alert(
             "title",
             isPresented: $showAlert
         ) {
-            Button("Button1", role: .destructive) {
-                
-            }
+
         } message: {
             Text("message")
         }
