@@ -7,15 +7,32 @@
 
 import SwiftUI
 
+enum Contents: CaseIterable {
+    case apple
+    case orange
+    case grape
+    
+    var title: String {
+        switch self {
+        case .apple: "Apple"
+        case .orange: "Orange"
+        case .grape: "Grape"
+        }
+    }
+}
+
 struct ContentView28: View {
-    @State private var contents = ["Apple", "Orange", "Grape"]
 
     var body: some View {
         NavigationStack {
             List {
-                ForEach(contents, id: \.self) { content in
-                    NavigationLink(content) {
-                        Apple()
+                ForEach(Contents.allCases, id: \.self) { content in
+                    NavigationLink(content.title) {
+                        switch content {
+                        case .apple: Apple()
+                        case .orange: Orange()
+                        case .grape: Grape()
+                        }
                     }
                 }
             }
