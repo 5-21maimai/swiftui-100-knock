@@ -43,6 +43,7 @@
 		A7C785B02B8790A900C8F52C /* ContentView27Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785AF2B8790A900C8F52C /* ContentView27Next.swift */; };
 		A7C785B22B8B4CA400C8F52C /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B12B8B4CA400C8F52C /* ContentView28.swift */; };
 		A7C785B42B94CB7B00C8F52C /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B32B94CB7B00C8F52C /* ContentView29.swift */; };
+		A7C785B62BCD5B7000C8F52C /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B52BCD5B7000C8F52C /* ContentView30.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		A7C785AF2B8790A900C8F52C /* ContentView27Next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView27Next.swift; sourceTree = "<group>"; };
 		A7C785B12B8B4CA400C8F52C /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
 		A7C785B32B94CB7B00C8F52C /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
+		A7C785B52BCD5B7000C8F52C /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				A7C785AF2B8790A900C8F52C /* ContentView27Next.swift */,
 				A7C785B12B8B4CA400C8F52C /* ContentView28.swift */,
 				A7C785B32B94CB7B00C8F52C /* ContentView29.swift */,
+				A7C785B52BCD5B7000C8F52C /* ContentView30.swift */,
 				A7914E352B308F680001C303 /* Item.swift */,
 				A7914E372B308F6F0001C303 /* Assets.xcassets */,
 				A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */,
@@ -353,6 +356,7 @@
 				A7914E5F2B3478710001C303 /* ContentView2.swift in Sources */,
 				A7914E6B2B4021700001C303 /* ContentView8.swift in Sources */,
 				A7914E362B308F680001C303 /* Item.swift in Sources */,
+				A7C785B62BCD5B7000C8F52C /* ContentView30.swift in Sources */,
 				A7914E632B3890570001C303 /* ContentView4.swift in Sources */,
 				A7914E712B49838B0001C303 /* ContentView11.swift in Sources */,
 				A7914E732B4984F10001C303 /* ContentView12.swift in Sources */,
