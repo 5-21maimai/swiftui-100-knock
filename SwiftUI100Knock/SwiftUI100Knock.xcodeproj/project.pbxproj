@@ -44,6 +44,7 @@
 		A7C785B22B8B4CA400C8F52C /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B12B8B4CA400C8F52C /* ContentView28.swift */; };
 		A7C785B42B94CB7B00C8F52C /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B32B94CB7B00C8F52C /* ContentView29.swift */; };
 		A7C785B62BCD5B7000C8F52C /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B52BCD5B7000C8F52C /* ContentView30.swift */; };
+		A7C785B82BCD5CC800C8F52C /* ContentView31.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C785B72BCD5CC800C8F52C /* ContentView31.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		A7C785B12B8B4CA400C8F52C /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
 		A7C785B32B94CB7B00C8F52C /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
 		A7C785B52BCD5B7000C8F52C /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
+		A7C785B72BCD5CC800C8F52C /* ContentView31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView31.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				A7C785B12B8B4CA400C8F52C /* ContentView28.swift */,
 				A7C785B32B94CB7B00C8F52C /* ContentView29.swift */,
 				A7C785B52BCD5B7000C8F52C /* ContentView30.swift */,
+				A7C785B72BCD5CC800C8F52C /* ContentView31.swift */,
 				A7914E352B308F680001C303 /* Item.swift */,
 				A7914E372B308F6F0001C303 /* Assets.xcassets */,
 				A7914E392B308F6F0001C303 /* SwiftUI100Knock.entitlements */,
@@ -363,6 +366,7 @@
 				A7C785B22B8B4CA400C8F52C /* ContentView28.swift in Sources */,
 				A7C785A62B7662B900C8F52C /* ContentView23.swift in Sources */,
 				A7914E752B4A76B80001C303 /* ContentView13.swift in Sources */,
+				A7C785B82BCD5CC800C8F52C /* ContentView31.swift in Sources */,
 				A7914E872B5EBE3A0001C303 /* ContentView22.swift in Sources */,
 				A7914E7F2B540B880001C303 /* ContentView19.swift in Sources */,
 				A7C785AE2B878FFF00C8F52C /* ContentView27.swift in Sources */,
